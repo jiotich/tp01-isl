@@ -1,7 +1,7 @@
 module dispcomp(input [4:0] comps);
     reg c1,c2,c3,c4,c5;
     integer sai;
-	wire comps;
+    wire [4:0] comps;
     initial begin
     //as variáveis C correspondem aos computadores, que ligados enviariam o sinal (1)
         c1=comps[0];
