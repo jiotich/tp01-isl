@@ -6,6 +6,11 @@ module sim();
 	verylog Teste(.comps(computers), .segs(segments));
 	initial begin
 		$monitor("%b => %b", computers, segments);
-		computers = 5'b11001;
+		computers = 5'b11111;
+		#2;computers = 5'b11110;
+		#2;computers = 5'b11100;
+		#2;computers = 5'b11000;
+		#2;computers = 5'b10000;
+		#2;computers = 5'b00000;
 	end
 endmodule
