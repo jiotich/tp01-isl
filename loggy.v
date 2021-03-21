@@ -9,10 +9,12 @@ module sim();
 		computers = 5'b11111;
 		
 		#2;computers = 5'b11110;
+		$display("\n");
 		#2;computers = 5'b11101;
 		#2;computers = 5'b11011;
 		#2;computers = 5'b10111;
 		#2;computers = 5'b01111;
+		
 		#2;computers = 5'b01011;
 		$display("\n");
 		#2;computers = 5'b11100;
@@ -23,8 +25,9 @@ module sim();
 		#2;computers = 5'b10011;
 		#2;computers = 5'b01101;
 		#2;computers = 5'b00111;
-		$display("\n");
+		
 		#2;computers = 5'b11000;
+		$display("\n");
 		#2;computers = 5'b10100;
 		#2;computers = 5'b10010;
 		#2;computers = 5'b10001;
@@ -34,13 +37,15 @@ module sim();
 		#2;computers = 5'b00011;
 		#2;computers = 5'b00110;
 		#2;computers = 5'b00101;
-		$display("\n");
+		
 		#2;computers = 5'b10000;
+		$display("\n");
 		#2;computers = 5'b01000;
 		#2;computers = 5'b00100;
 		#2;computers = 5'b00010;
 		#2;computers = 5'b00001;
-		$display("\n");
+		
 		#2;computers = 5'b00000;
+		$display("\n");
 	end
 endmodule
